@@ -21,12 +21,12 @@ const [displayBtns, setDisplayBtns] = useState(0);
   return (
     <div className="container">
       <Logo />
-      <Display displayBtns={displayBtns}/>
+      <Display displayBtns = {displayBtns}/>
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <div className="allButtons">
           <Specials/>
-          <Numbers setDisplayBtns={setDisplayBtns}/>
+          <Numbers setDisplayBtns ={setDisplayBtns}/>
           <Operators/>
         </div>
       </div>
