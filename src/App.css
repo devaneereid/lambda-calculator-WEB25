@@ -8,7 +8,7 @@
 }
 .display {
     margin-top: 25px;
-    height: 100px;
+    height: 110px;
     width: 450px;
     border-radius: 50px;
     color: white;
@@ -17,6 +17,53 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    margin-left: 5%;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+}
+button.specialButton {
+    background: #7676f2;
+    box-shadow: 3px 3px #322c2d;
+    border: 1px solid black;
+    font-size: 2.6rem;
+    border-radius: 50px;
+    color: white;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+}
+button.numberButton {
+    background: navy;
+    color: white;
+    font-size: 2.6rem;
+    margin: 20px;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    box-shadow: 3px 3px #322c2d;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+button.operatorButton {
+    background: #7676f2;
+    font-size: 2.4rem;
+    color: white;
+    border-radius: 50px;
+    margin: 20px;
+    height: 75px;
+    width: 100px;
+    box-shadow: 2px 2px #322c2d;
+    border: 1px solid black;
+}
+img.logo {
+    padding: 30px 0 0 30px;
+    width: 30%;
+}
+#root > div > div.App > div > div:nth-child(2) > button:nth-child(10){
+    width: 240px;
+}
+#root > div > div.App > div > div:nth-child(3){
+    display: flex;
+    
+}
